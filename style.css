@@ -1,0 +1,15 @@
+.toggled {
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(220,220,220,0.5);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: grey;
+}

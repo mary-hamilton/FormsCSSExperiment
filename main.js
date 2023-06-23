@@ -1,7 +1,14 @@
 import './bootstrap.css';
 import './style.css';
 
-const hello = document.createElement('h1')
-hello.textContent = "Eyup!"
+let formToggler = 0;
 
-document.querySelector('main').append(hello);
+const catCreator = document.getElementById("cat-creator");
+const main = document.getElementById("main")
+
+if (formToggler) {
+    main.classList.add("toggled")
+} else {
+    main.classList.remove("toggled")
+}
+

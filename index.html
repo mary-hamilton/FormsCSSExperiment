@@ -8,7 +8,50 @@
 </head>
 <body>
 
-<main class="container"></main>
-
+<main class="container d-flex flex-column min-vw-100 min-vh-100">
+  <div id="main" class="container d-flex min-vw-100 min-vh-100">
+  <form id="cat-creator" class="col-sm-4 requires-validation" novalidate>
+    <div class="form-group">
+      <label for="cat-name" class="form-label">Name?</label>
+      <input class="form-control" id="cat-name" type="text">
+      <div class="invalid-feedback" id="name-feedback"></div>
+    </div>
+    <div class="form-group">
+      <label for="coat-colour" class="form-label">Coat colour?</label>
+      <input class="form-control" id="coat-colour" type="text">
+      <div class="invalid-feedback" id="colour-feedback"></div>
+    </div>
+    <div class="form-group">
+      <label for="fluffiness" class="form-label">Fluffiness (out of 10)</label>
+      <input class="form-control" id="fluffiness" type="number">
+      <div class="invalid-feedback" id="fluffiness-feedback"></div>
+    </div>
+    <div>
+      <p>Are you friends yet??</p>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label" for="friends-yet-yes">Yes!</label>
+        <input class="form-check-input" id="friends-yet-yes" value="Yes!" type="radio" name="friends-yet" required>
+      </div>
+      <div class="form-check form-check-inline">
+        <label class="form-check-label" for="friends-yet-no">No :(</label>
+        <input class="form-check-input"  id="friends-yet-no" value="No :(" type="radio" name="friends-yet" required>
+      </div>
+      <small id="radio-feedback"></small>
+    </div>
+    <div class="form-group">
+      <label for="image-input" class="form-label">A picture of your cat?</label>
+      <input class="form-control" type="file" id="image-input" accept="image/jpeg, image/png"/>
+      <div class="invalid-feedback" id="image-feedback"></div>
+      <div id="image-preview"></div>
+    </div>
+  </form>
+  </div>
+  <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"</p>
+  <p>Content</p>
+  <p>Content</p>
+  <p>Content</p>
+  <p>Content</p>
+  <p>Content</p>
+</main>
 </body>
 </html>
